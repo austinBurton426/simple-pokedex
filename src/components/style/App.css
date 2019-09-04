@@ -1,0 +1,49 @@
+.pokemon {
+    font-size:25px;
+    margin-top: 200px;
+    display:flex;
+    justify-content: space-evenly;
+}
+.goldenBorder {
+    font-weight: bold;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:white;
+    margin:10px;
+    padding:50px;
+    border: solid goldenrod thick;
+    border-radius: 30px;
+    background-image: linear-gradient(to top right,darkblue, lightblue);
+    background-repeat: no-repeat;
+    background-size: auto;}
+.form {
+    border:solid black thick;
+    border-radius: 15px;
+    background-image: linear-gradient(to top right,#ff0000,orangered);
+    background-repeat: no-repeat;
+    background-size: auto;
+padding: 50px;
+    display:flex;
+    flex-direction: column;
+}
+body {
+    background-image: url("./pokedex_bg.png");
+}
+.button {
+    margin:10px;
+    border-radius: 20px;
+    background-image: linear-gradient(to top right,red, pink);
+}
+.button1 {
+    margin:10px;
+    border-radius: 20px;
+
+    background-image: linear-gradient(to top right, yellow, lightyellow);
+
+}
+.button2 {
+    margin:10px;
+    border-radius: 20px;
+
+    background-image: linear-gradient(to top right,green, lightgreen);
+
+}
