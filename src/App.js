@@ -2,24 +2,6 @@ import React from "react";
 import pokemon from "./components/Pokemon";
 import "./components/style/App.css";
 
-// const type = "Electric";
-// const pokeFilter = data => {
-//   return data.type.includes(type);
-// };
-
-// const pokeMap = data => {
-//   const result = {
-//     img: data.img,
-//     name: data.name,
-//     num: data.num,
-//     type: data.type,
-//     weaknesses: data.weaknesses
-//   };
-//   return result;
-// };
-
-// const pokeFiltered = pokemon.filter(pokeFilter);
-// const pokeWeaknesses = pokeFiltered.map(pokeMap);
 
 class App extends React.Component {
   state = {
